@@ -1,0 +1,72 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = SmokePing monitoring dashboard.
+
++ Internet
+
+menu = Internet
+title = Internet Connectivity
+
+++ ISP_Exit
+menu = ISP Exit
+title = ISP Exit Point (P2P)
+host = <YOUR_ISP_EXIT_IP>
+
+++ ExternalRef
+menu = External Reference
+title = External Reference Host
+host = example.com
+
++ LocalNetwork
+
+menu = Local Network
+title = Local Network Latency
+
+++ Router
+menu = Router
+title = LAN Router
+host = 192.168.1.1
+
+++ CableModem
+menu = Cable Modem
+title = Cable Modem
+host = 192.168.0.1
+
++ Infrastructure
+
+menu = Infrastructure
+title = Local Infrastructure
+
+++ RaspberryPi_ETH
+menu = Raspberry Pi ETH
+title = Raspberry Pi (Ethernet)
+host = <RASPI_ETH_IP>
+
+++ RaspberryPi_WiFi
+menu = Raspberry Pi WiFi
+title = Raspberry Pi (WiFi)
+host = <RASPI_WIFI_IP>
+
++ IoT
+
+menu = IoT Devices
+title = IoT Device Latency
+
+++ Camera1
+menu = Camera 1
+title = IP Camera 1
+host = <CAMERA_1_IP>
+
+++ Camera2
+menu = Camera 2
+title = IP Camera 2
+host = <CAMERA_2_IP>
+
+++ SmartDevice1
+menu = Smart Device 1
+title = Smart Device 1
+host = <SMART_DEVICE_IP>
